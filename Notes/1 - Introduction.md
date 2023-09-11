@@ -1,2 +1,2 @@
-# 1 - Introducção à Aprendizagem Computacional
+# 1 - Introdução à Aprendizagem Computacional
 
