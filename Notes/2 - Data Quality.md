@@ -27,6 +27,12 @@ Assegurar que os dados estão limpos, integrados e reduzidos mas sem comprometer
 Durante a integração de dados de várias fontes é importante não ocorrer `redundância`, removendo sinónimos e dados derivados. <br>
 A `inconsistência` também é outro problema: vários atributos para a mesma entidade em vários datasources. É causado por diferentes interpretações e representações.
 
-### Redução
+### Reduction
 
-Quando existe muito volume de dados é importante criar um sampling dos mesmos, mas a redução não pode levar a que o significado global mude. Os resultados analíticos devem ser os mesmos.
+Quando existe muito volume de dados é importante criar um sampling dos mesmos, mas a redução não pode levar a que o significado global mude. Os resultados analíticos devem ser os mesmos. <br>
+Há várias abordagens, mas as recorrentes são: eliminação de dados sem significado, agregação de atributos com `feature selection`.
+
+### Transformation
+
+`Feature selection` encaixa-se aqui também, assim como a normalização dos dados, agregação e discretização. 
+
