@@ -18,9 +18,15 @@ Cross-Industry Standard Process for Data Mining. É barato, rápido e mais fáci
 - `Business Understanding` - determinar objectivos, produzir o plano;
 - `Data understanding` - coletar os daods iniciais, descrevê-los, explorá-los e verificar a qualidade dos dados;
 - `Data preparation` - selecionar os dados, limpar, integrar várias fontes e formatar o output;
-- `Modeling` - ;
-- `Evaluation`- ;
-- `Deployment`- ;
+- `Modeling` - gerar o modelo e correr com os dados preparados;
+- `Evaluation`- avaliar os resultados, fazer revisão do output;
+- `Deployment`- manuntenção e deploy;
 
 ### SCRUM-DM
 
+É um método de Data Mining ágil, que tem apenas três fases:
+- Business Understanding;
+- Sprint;
+- Deployment;
+
+Também tem os tradicionais conceitos de SCRUM, como product owner, scrum mater, development team, data mining story, product backlog e sprint backlog;
