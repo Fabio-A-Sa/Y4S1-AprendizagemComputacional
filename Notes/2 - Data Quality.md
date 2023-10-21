@@ -22,3 +22,11 @@ Assegurar que os dados estão limpos, integrados e reduzidos mas sem comprometer
 - `Manualmente`;
 - `Não fazer nada`, porque vários algoritmos são robustos quanto ao ruído;
 
+### Integration
+
+Durante a integração de dados de várias fontes é importante não ocorrer `redundância`, removendo sinónimos e dados derivados. <br>
+A `inconsistência` também é outro problema: vários atributos para a mesma entidade em vários datasources. É causado por diferentes interpretações e representações.
+
+### Redução
+
+Quando existe muito volume de dados é importante criar um sampling dos mesmos, mas a redução não pode levar a que o significado global mude. Os resultados analíticos devem ser os mesmos.
