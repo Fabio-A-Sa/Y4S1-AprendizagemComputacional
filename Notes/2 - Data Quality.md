@@ -10,3 +10,15 @@ Assegurar que os dados estão limpos, integrados e reduzidos mas sem comprometer
 
 ### Missing Data
 
+- Ignorar completamente: quando o target está em falta ou a percentagem de falhas de dados importantes é significativa;
+- Preencher manualmente;
+- Preencher automaticamente: com uma constante global, pela média ou pelo valor mais provável;
+
+### Noising
+
+- `Binning`: organização dos dados com base em valores semelhantes;
+- `Regressão`: ajuste dos dados, para suavisar eventuais divergências;
+- `Clustering`: para detectar e eliminar outliers;
+- `Manualmente`;
+- `Não fazer nada`, porque vários algoritmos são robustos quanto ao ruído;
+
