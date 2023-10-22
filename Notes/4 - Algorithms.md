@@ -35,3 +35,6 @@ P (c | d) = [P (d | c) * P(c)] / P (d)
 
 É universal, versátil, online, robusta, rápida quando já se tem o modelo treinado e pode ser produzida em paralelo. Por outro lado é lenta em fase de treino, difícil de interpretar e pouca adaptativa a novas realidades.
 
+### Support Vector Machines (SVM)
+
+Quanto **maior é a margem**, menos risco de overfitting do modelo. Pelo lado positivo, estes métodos são muito maturados, os resultados são independentes das condições iniciais e do número de atributos a testar, e dá para encontrar a *local minima*. Pode-se usar `funções não-lineares` se der para discriminar.
