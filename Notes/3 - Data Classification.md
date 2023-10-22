@@ -8,4 +8,7 @@ Um método simples de classificação. Existe subdivisão de valores segundo atr
 
 ## Avaliação
 
-Através de matrizes de confusão, que apresenta os (falsos|verdadeiros) (positivos|negativos).
+Através de matrizes de confusão, que apresenta os (falsos|verdadeiros) (positivos|negativos). Há algumas fórmulas a saber:
+
+![Confusion Matrix Formulas](../Images/ConfusionMatrix.png)
+
