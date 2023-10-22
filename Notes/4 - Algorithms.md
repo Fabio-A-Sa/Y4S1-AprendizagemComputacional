@@ -13,3 +13,6 @@ Método `LD` que julga duas classes estarem separadas por uma única linha. É s
 
 ### Nearest Neighbors Classifier
 
+Dado um objecto, este partilha a classe com o valor vizinho mais próximo. O algoritmo `KNN` é uma generalização deste, com K sendo normalmente um número ímpar, em que se escolhe a classe da maioria dos K vizinhos mais próximos. <br>
+No entanto este algoritmo é sensível a atributos irrelevantes e sensível também a classificações efetuadas apenas tendo em conta um subset de features.
+
