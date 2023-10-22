@@ -33,3 +33,5 @@ P (c | d) = [P (d | c) * P(c)] / P (d)
 
 ### Neural Networks
 
+É universal, versátil, online, robusta, rápida quando já se tem o modelo treinado e pode ser produzida em paralelo. Por outro lado é lenta em fase de treino, difícil de interpretar e pouca adaptativa a novas realidades.
+
