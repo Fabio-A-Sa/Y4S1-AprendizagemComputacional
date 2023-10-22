@@ -2,7 +2,7 @@
 
 Os algoritmos de Machine Learning podem ter vários comportamentos, de entre os quais:
 
-`LD` - Vector de D dimensões que separa os dados em duas classes. Linear Regression;
+`LD` - Vector de D dimensões que separa os dados em duas classes. Linear Regression; <br>
 `DT` - Subdivisão dos dados de forma geométrica, em várias classes. Decision Treee;
 
 ## Classifiers
