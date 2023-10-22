@@ -20,3 +20,16 @@ No entanto este algoritmo é sensível a atributos irrelevantes e sensível tamb
 
 É um método simples de implementar mas é fácil de ocorrer `overfitting` e difícil de escolher os atributos que fazem a divergência de classes. É robusto a anomalias nos dados (outliers, missing values, correlated attributes, irrelevant attributes, scale).
 
+### Naive Bayes
+
+P (c | d) = [P (d | c) * P(c)] / P (d)
+
+> P (c | d) - Probabilidade de d estar na classe c <br>
+> P (d | c) - Probabilidade de gerar a instância d dado a classe c <br>
+> P (c) - Probabilidade de ocorrência da classe c <br>
+> P (d) - Probabilidade de ocorrência da instância d <br>
+
+É robusta a variáveis irrelevantes, rápido a treinar e implementar. Por outro lado assume indendência entre features e não é aplicável a features numéricas.
+
+### Neural Networks
+
