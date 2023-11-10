@@ -1,4 +1,4 @@
-# 4 - Algorithms
+# 3 - Algorithms
 
 Os algoritmos de Machine Learning podem ter vários comportamentos, de entre os quais:
 
