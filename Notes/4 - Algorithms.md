@@ -7,6 +7,12 @@ Os algoritmos de Machine Learning podem ter vários comportamentos, de entre os 
 
 ## Classifiers
 
+### Decision Tree
+
+Um método simples de classificação, binária ou não. Existe subdivisão de valores segundo atributos variados. As principais dificuldades são:
+- Que atributos escolher para fazer a divisão?
+- Quando parar a divisão, para que a classificação não faça **overfitting**?
+
 ### Simple Linear
 
 Método `LD` que julga duas classes estarem separadas por uma única linha. É simples de configurar e interpretar, mas não é possível usá-lo em dados qualitativos e é sensível a outliers.
@@ -38,3 +44,13 @@ P (c | d) = [P (d | c) * P(c)] / P (d)
 ### Support Vector Machines (SVM)
 
 Quanto **maior é a margem**, menos risco de overfitting do modelo. Pelo lado positivo, estes métodos são muito maturados, os resultados são independentes das condições iniciais e do número de atributos a testar, e dá para encontrar a *local minima*. Pode-se usar `funções não-lineares` se der para discriminar.
+
+## Avaliação
+
+- Através de `matrizes de confusão`, que apresenta os (falsos|verdadeiros) (positivos|negativos). Há algumas fórmulas a saber:
+
+![Confusion Matrix Formulas](../Images/ConfusionMatrix.png)
+
+- `Curva ROC` (*Receiver Operating Characteristic*), para visualização da proporção de true positives por false positives.
+
+![ROC Curve Construction](../Images/ROC.png)
