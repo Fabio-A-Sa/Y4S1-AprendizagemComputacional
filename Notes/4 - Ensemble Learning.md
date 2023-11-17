@@ -1,6 +1,6 @@
 # 4 - Ensemble Learning
 
-Constituído por diversos modelos, cada um obtido a partir do aprendizado com diferentes partes dos dados. Ao combinar as partes e as previsões parciais de cada modelo obtém-se uma única previsão.
+Constituído por diversos modelos, cada um obtido a partir do aprendizado com diferentes partes dos dados. Ao combinar as partes e as previsões parciais de cada modelo obtém-se uma única previsão. O sistema pode ser homogéneo ou heterogéneo de acordo com a diversidade dos algoritmos utilizados.
 
 #### Prós
 
@@ -11,5 +11,4 @@ Constituído por diversos modelos, cada um obtido a partir do aprendizado com di
 
 - É uma forma mais complexa de previsão;
 - A função de merge dos resultados parciais pode não ser simples de obter;
-
 
