@@ -42,3 +42,8 @@ Usado para regressão.
 
 ## Base Models
 
+- Para `classificação`, os modelos base devem ter a máxima accuracy possível, mas com isso podem ter diversos erros.
+
+- Para `regressão`, os modelos base devem ser capazes de minimizar o erro conjunto, para minimizar assim também o overfitting e a variaça dos resultados obtidos.
+
+Hoje em dia há um foco grande em `homogeneous assembles`, mas os processos também são aplicáveis a `heterogeneous assembles`.
