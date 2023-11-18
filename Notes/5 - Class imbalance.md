@@ -39,6 +39,11 @@ Os algoritmos e o imbalance podem ser escolhidos com base no contexto da previs�
 
 ### Scoring
 
-
+A escolha pode ser auxiliada de acordo com a probabilidade da escolha de uma determinada classe, com base nos dados históricos em pesquisa.
 
 ### Evaluation
+
+- É a ordenação dos dados de modo ascendente de acordo com a permanência na classe positiva;
+- Pode ser feita através de uma ROC Analysis, para avaliar a proporção de TP (True Positives) em relação a FP (False Positives) e assim avaliar o melhor compromisso com o custo;
+
+![ROC Curves](../Images/ROC.png)
