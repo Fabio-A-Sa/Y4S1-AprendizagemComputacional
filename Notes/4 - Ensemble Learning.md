@@ -26,7 +26,7 @@ O Boosting tem tendências a encontrar melhores resultados do que o Bagging, mas
 
 ### Random Forest
 
-
-
+Em cada iteração seleciona aleatoriamente algumas features para prever o resultado. O resultado final resulta da sobreposição dos resultados das várias árvores. É mais robusto a erros e outliers, insensível ao número de atributos em cada split e mais rápido.
 
 ### Negative Correlation
+
