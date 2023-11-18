@@ -15,3 +15,21 @@ Além disso, deve haver um pré-processamento que garanta um balanceamento artif
 - criar dados sintéticos a partir dos preexistentes;
 - escolher os algoritmos certos dado o contexto do imbalance;
 
+## Pre-processing methods
+
+### Resampling
+
+- Pode haver perda de dados importantes;
+- Não é possível quando há dados insuficientes;
+- Há mais probabilidades de overfitting;
+
+### SMOTE - Synthetic Minority Over-sampling Technique
+
+Gerar dados que balanceam as duas classes a partir dos preexistentes.
+
+- Há possibilidade de serem escolhidos intervalos inadequados;
+- Há mais probabilidades de overfitting;
+- O split dos dados em treino e teste pode focar-se mais nos dados sintéticos e por isso desenvolver erros de conhecimento e de análise final;
+
+## Cost of errors
+
