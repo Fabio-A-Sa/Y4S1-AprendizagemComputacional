@@ -33,3 +33,12 @@ Gerar dados que balanceam as duas classes a partir dos preexistentes.
 
 ## Cost of errors
 
+Os algoritmos e o imbalance podem ser escolhidos com base no contexto da previsão e no tipo de custo que estamos dispostos a requerer. O `Metacost` relaciona o custo do erro de cada réplica do algoritmo com a probabilidade de esta votar para o resultado final do algoritmo.
+
+## Post-processing methods
+
+### Scoring
+
+
+
+### Evaluation
