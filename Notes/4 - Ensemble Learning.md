@@ -12,3 +12,10 @@ Constituído por diversos modelos, cada um obtido a partir do aprendizado com di
 - É uma forma mais complexa de previsão;
 - A função de merge dos resultados parciais pode não ser simples de obter;
 
+## Modelos
+
+### Bagging
+
+De Bootstrap AGGregatING. É um método robusto a ruído. Se o classificador for instável, 
+
+### 
