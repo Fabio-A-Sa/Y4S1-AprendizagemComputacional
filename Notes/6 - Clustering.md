@@ -33,3 +33,5 @@ Baseados em grafos e dependem do tipo de linkagem usada. Um exemplo útil são p
 
 ## Evaluation
 
+- Silhouette
+- Jaccard index
