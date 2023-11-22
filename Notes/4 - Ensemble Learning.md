@@ -16,6 +16,6 @@ Constituído por diversos modelos, cada um obtido a partir do aprendizado com di
 
 ### Bagging
 
-De Bootstrap AGGregatING. É um método robusto a ruído. Se o classificador for instável, 
+De Bootstrap AGGregatING. É um método robusto a ruído. O dataset é dividido em outros menores para traininig. Se o classificador for instável ou com propenso a overfitting, é combatido com outro modelo ao lado que estabiliza o resultado global. 
 
 ### 
