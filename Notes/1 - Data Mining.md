@@ -25,8 +25,15 @@ Cross-Industry Standard Process for Data Mining. É barato, rápido e mais fáci
 ### SCRUM-DM
 
 É um método de Data Mining ágil, que tem apenas três fases:
+
 - Business Understanding;
 - Sprint;
 - Deployment;
 
 Também tem os tradicionais conceitos de SCRUM, como product owner, scrum mater, development team, data mining story, product backlog e sprint backlog;
+
+## ILP - Inductive Logic Programming
+
+É um conjunto de técnicas para a construção de modelos a partir de dados e de conhecimento do domínimo do problema. É uma forma de `Multi-Relational Data Mining` e é uma sub-área de Machine Learning.
+
+A programação em lógica
