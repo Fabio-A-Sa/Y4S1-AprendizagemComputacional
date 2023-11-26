@@ -34,6 +34,18 @@ Também tem os tradicionais conceitos de SCRUM, como product owner, scrum mater,
 
 ## ILP - Inductive Logic Programming
 
-É um conjunto de técnicas para a construção de modelos a partir de dados e de conhecimento do domínimo do problema. É uma forma de `Multi-Relational Data Mining` e é uma sub-área de Machine Learning.
+É um conjunto de técnicas para a construção de modelos a partir de dados e de conhecimento do domínimo do problema. É uma forma de `Multi-Relational Data Mining` e é uma sub-área de Machine Learning. A programação em lógica com restrições e a estatística são os dois grandes pilares da ILP.
 
-A programação em lógica com restrições e a estatística são os dois grandes pilares da ILP.
+### Vantagens
+
+- Linguagem expressiva e compreensiva para os modelos;
+- Pode resgatar dados de diferentes sources;
+- 
+- 
+
+### Desvantagens
+
+- 
+- 
+- 
+- 
