@@ -36,4 +36,4 @@ Também tem os tradicionais conceitos de SCRUM, como product owner, scrum mater,
 
 É um conjunto de técnicas para a construção de modelos a partir de dados e de conhecimento do domínimo do problema. É uma forma de `Multi-Relational Data Mining` e é uma sub-área de Machine Learning.
 
-A programação em lógica
+A programação em lógica com restrições e a estatística são os dois grandes pilares da ILP.
