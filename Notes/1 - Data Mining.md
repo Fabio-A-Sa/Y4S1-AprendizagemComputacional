@@ -39,13 +39,10 @@ Também tem os tradicionais conceitos de SCRUM, como product owner, scrum mater,
 ### Vantagens
 
 - Linguagem expressiva e compreensiva para os modelos;
-- Pode resgatar dados de diferentes sources;
-- 
-- 
+- Pode resgatar dados de diferentes fontes;
 
 ### Desvantagens
 
-- 
-- 
-- 
-- 
+- Lenta para aplicações complexas;
+- Necessita de um alargado conhecimento em programação com Prolog;
+- As estruturas de dados podem ser mais complexas do que nas outras linguagens;
