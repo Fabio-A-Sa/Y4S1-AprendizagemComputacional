@@ -19,11 +19,18 @@ Notes that I take during theoretical lectures in Markdown <br>
 
 ### Project (Grade: __/20)
 
+Basketball tournaments are usually split in two parts. First, all teams play each other aiming to achieve the greatest number of wins possible. Then, at the end of the first part of the season, a pre determined number of teams which were able to win the most games are qualified to the playoff season, where they play series of knock-out matches for the trophy.
 
+For the 10 years, data from players, teams, coaches, games and several other metrics were gathered and arranged on this dataset. The goal is to use this data to predict which teams will qualify for the playoffs in the next season.
+
+Results of Year 11 can be found [here](./Project/data/predictions/year_11/), being the best results inside of the folder [rfc](./Project/data/predictions/year_11/rfc/all_years_11.csv) with all years approach.
 
 #### Members
 
-
+- André Costa - up201905916@fe.up.pt
+- Diogo Fonte - up202004175@fe.up.pt
+- Fabio Sá - up202007658@fe.up.pt
+- Joaquim Monteiro - up201905257@fe.up.pt
 
 **@ Fábio Araújo de Sá** <br>
 **2023/2024**
