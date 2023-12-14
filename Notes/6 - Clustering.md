@@ -1,4 +1,4 @@
-# Clustering
+# 6 - Clustering
 
 Problema da descoberta da similaridade entre objectos, dadas as suas features.
 
