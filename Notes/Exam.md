@@ -48,3 +48,17 @@
 - LD (linear discriminant), DT (decision tree);
 - C no SVM é para smoother decision boundary, quanto maior mais complexo é a decision boundaries;
 - KNN é computacionalmente mais expensive para large datasets e pode ser implicitamente dedicado a ranges;
+
+-- To improve
+
+- Emnseble: homogeneo, heterogéneo, pesado, simples;
+- Bagging (error-independent), Boosting (error-dependent), Random Forest (muda atributos), Negative Correlation, Base models;
+- Hiperparametros: grid search, random search;
+- Dualidade: processo de formação de problemas optimizados;
+- Bias é inversamente proporcional à variância;
+- Em class imbalance, o atributo que queremos mais tem de ser o positivo;
+- Há formas de combater o imbalance: ressampling (undersampling, oversampling);
+- ML algorithms diminuem FP + FN para ter melhor accuracy;
+- Cost sensitive learning: metacost formulation baseado no custo do erro e probabilidade da ocorrência desse erro;
+- Deep Learning:
+- LLM: 
