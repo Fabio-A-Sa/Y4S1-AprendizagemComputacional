@@ -16,7 +16,7 @@ Constituído por diversos modelos, cada um obtido a partir do aprendizado com di
 
 ### Bagging
 
-De Bootstrap AGGregatING. É um método robusto a ruído. O dataset é dividido em outros menores para traininig. Se o classificador for instável ou com propenso a overfitting, é combatido com outro modelo ao lado que estabiliza o resultado global. Se o classificador for mesmo instável, podemos usar abordagens de aprendizado como decision trees ou neural networks. Usa `independent sampliing` e `uniform aggregation`.
+De Bootstrap AGGregatING. É um método robusto a ruído. O dataset é dividido em outros menores para traininig. Se o classificador for instável ou com propenso a overfitting, é combatido com outro modelo ao lado que estabiliza o resultado global. Se o classificador for mesmo instável, podemos usar abordagens de aprendizado como decision trees ou neural networks. Usa `independent sampling` e `uniform aggregation`.
 
 Usado para classificação e regressão.
 
@@ -44,6 +44,6 @@ Usado para regressão.
 
 - Para `classificação`, os modelos base devem ter a máxima accuracy possível, mas com isso podem ter diversos erros.
 
-- Para `regressão`, os modelos base devem ser capazes de minimizar o erro conjunto, para minimizar assim também o overfitting e a variaça dos resultados obtidos.
+- Para `regressão`, os modelos base devem ser capazes de minimizar o erro conjunto, para minimizar assim também o overfitting e a variação dos resultados obtidos.
 
 Hoje em dia há um foco grande em `homogeneous assembles`, mas os processos também são aplicáveis a `heterogeneous assembles`.
