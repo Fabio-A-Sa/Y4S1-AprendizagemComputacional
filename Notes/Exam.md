@@ -6,6 +6,7 @@
 - [2. Data Quality and Preparation](#data-quality-and-preparation)
 - [3. Clustering](#clustering)
 - [4. Association Rules](#association-rules)
+- [5. Algorithms](#algorithms)
 
 ## Data Mining Process
 
@@ -41,3 +42,9 @@
 - Confiança (A -> B): suporte (A -> B) / suporte (A);
 - Lift: P(A && B) / (P (A) * P(B));
 - Priority proprety in APRIORI algorithm: itemset mining, encontrar frequentes itemsets, BFS algorithm, mau para a eficiência temporal;
+
+## Algorithms
+
+- LD (linear discriminant), DT (decision tree);
+- C no SVM é para smoother decision boundary, quanto maior mais complexo é a decision boundaries;
+- KNN é computacionalmente mais expensive para large datasets e pode ser implicitamente dedicado a ranges;
