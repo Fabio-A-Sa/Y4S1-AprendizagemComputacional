@@ -12,11 +12,11 @@ Data Mining é o principal componente do `KDD` (Knowledge Discovery in Databases
 
 ### CRISP-DM
 
-Cross-Industry Standard Process for Data Mining. É barato, rápido e mais fácil de fazer iterações, por sr um processo contínuo. <br>
+Cross-Industry Standard Process for Data Mining. É barato, rápido e mais fácil de fazer iterações, por ser um processo contínuo. <br>
 É uma framework não proprietária, aplicada e focada em análises técnicas e baseada na experiência. Tem seis fases principais:
 
 - `Business Understanding` - determinar objectivos, produzir o plano;
-- `Data understanding` - coletar os daods iniciais, descrevê-los, explorá-los e verificar a qualidade dos dados;
+- `Data understanding` - coletar os dados iniciais, descrevê-los, explorá-los e verificar a qualidade dos dados;
 - `Data preparation` - selecionar os dados, limpar, integrar várias fontes e formatar o output;
 - `Modeling` - gerar o modelo e correr com os dados preparados;
 - `Evaluation`- avaliar os resultados, fazer revisão do output;
@@ -31,18 +31,3 @@ Cross-Industry Standard Process for Data Mining. É barato, rápido e mais fáci
 - Deployment;
 
 Também tem os tradicionais conceitos de SCRUM, como product owner, scrum mater, development team, data mining story, product backlog e sprint backlog;
-
-## ILP - Inductive Logic Programming
-
-É um conjunto de técnicas para a construção de modelos a partir de dados e de conhecimento do domínimo do problema. É uma forma de `Multi-Relational Data Mining` e é uma sub-área de Machine Learning. A programação em lógica com restrições e a estatística são os dois grandes pilares da ILP.
-
-### Vantagens
-
-- Linguagem expressiva e compreensiva para os modelos;
-- Pode resgatar dados de diferentes fontes;
-
-### Desvantagens
-
-- Lenta para aplicações complexas;
-- Necessita de um alargado conhecimento em programação com Prolog;
-- As estruturas de dados podem ser mais complexas do que nas outras linguagens;
