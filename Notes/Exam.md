@@ -5,6 +5,7 @@
 - [1. Data Mining Process](#data-mining-process)
 - [2. Data Quality and Preparation](#data-quality-and-preparation)
 - [3. Clustering](#clustering)
+- [4. Association Rules](#association-rules)
 
 ## Data Mining Process
 
@@ -27,4 +28,16 @@
 
 ## Clustering
 
-- 
+- Distance: manhattan, euclidean, hamming (diferença de strings de igual comprimento), Levenshtein ou distância de edição, between strings (bag of words), mine warping (edit distance mas com tempo), between images (by pixel or by feature);
+- Clustering: partitional (objectos próximos a objectos), prototype-based (objectos próximos a protótipos), graph-based, density-based;
+- K-Means: 6 iterations, centroid and menoid, preso no local optima, não é bom quando há outliers nem quando há formas não-convexas;
+- DBSCAN: define o número de clusters, sensível a densidade, encontra qualquer figura, dificil de definir hyper-parameters mas fica no global optima;
+- AHC (Agglomerative Hierarchical Clustering): graph-based com ligações (single, complete, average), hyper-parameters são simples de criar, mas torna-se difícil quando os datasets são grandes e pode ficar preso no local optima;
+- Evaluation de clusters através de silhouetas (1, -1, 0) ou de JACCARD (se os objectos tiverem labels);
+
+## Association Rules
+
+- Suporte (A): quantidade de A / quantidade total;
+- Confiança (A -> B): suporte (A -> B) / suporte (A);
+- Lift: P(A && B) / (P (A) * P(B));
+- Priority proprety in APRIORI algorithm: itemset mining, encontrar frequentes itemsets, BFS algorithm, mau para a eficiência temporal;
