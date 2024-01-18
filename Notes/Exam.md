@@ -7,6 +7,8 @@
 - [3. Clustering](#clustering)
 - [4. Association Rules](#association-rules)
 - [5. Algorithms](#algorithms)
+- [6. Ensemble](#ensemble)
+- [7. Class Imbalance](#class-imbalance)
 
 ## Data Mining Process
 
