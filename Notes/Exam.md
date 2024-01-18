@@ -49,9 +49,9 @@
 - C no SVM é para smoother decision boundary, quanto maior mais complexo é a decision boundaries;
 - KNN é computacionalmente mais expensive para large datasets e pode ser implicitamente dedicado a ranges;
 
--- To improve
+## Ensemble
 
-- Enseble: homogeneo, heterogéneo, pesado, simples;
+- Ensemble: homogeneo, heterogéneo, pesado, simples;
 - Bagging (error-independent), Boosting (error-dependent), Random Forest (muda atributos), Negative Correlation, Base models;
 - Hiperparametros: grid search, random search;
 - Dualidade: processo de formação de problemas optimizados;
